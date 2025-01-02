@@ -1,0 +1,66 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    text-align: center;
+}
+
+.simon {
+    font-size: 3.5rem;
+    color: #fa8231;
+}
+
+.score {
+    font-size: 1.5rem;
+    /* color: #009432; */
+    color: #059212;
+}
+
+.gave-over {
+    font-size: 2rem;
+    color: #2d3436;
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    height: 200px;
+    width: 200px;
+    border: 3.5px solid black;
+    border-radius: 15%;
+    margin: 2.5rem;
+}
+
+.Yellow {
+    background-color: #fbc531;
+    /* background-color: #badc58; */
+    /* background-color: #6ab04c; */
+}
+.Blurple {
+    /* background-color: #30336b; */
+    background-color: #4834d4;
+}
+.Black-pearl {
+    /* background-color: #535c68; */
+    /* background-color: #57606f; */
+    background-color: #1e272e;
+}
+
+.Red {
+    background-color: #fa5252;
+}
+
+.flash {
+    background-color: white;
+}
+
+.green {
+    background-color: #4cd137;
+    /* background-color: #C4E538; */
+}
