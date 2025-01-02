@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Barriecito&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&family=Rubik+Gemstones&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Gemstones&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* background-color: #4B2B30; */
+    background-color: #161616;
+}
+
+h1 {
+    font-family: "Barriecito", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 120px;
+    /* font-weight: 700;
+    font-style: normal; */
+    letter-spacing: 15px;
+    /* font-size: 100px; */
+    color: #C6DE41;
+}
+
+h2 {
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 30px;
+    font-size: 40px;
+    color: whitesmoke;
+}
+
+input {
+    padding: 15px 20px;
+    font-size: 20px;
+    outline: none;
+    margin-bottom: 30px;
+    margin-top: 60px;
+    border-radius: 6px;
+    border: 1px solid white;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    font-family: "Poppins", serif;
+    height: 45px;
+    width: 120px;
+    font-size: 18px;
+    border-radius: 6px;
+    border: 1px solid whitesmoke;
+    font-weight: 400;
+    letter-spacing: 3px;
+    color: #252424;
+}
+
+button:hover {
+    background-color: #FD5D5D;
+}
